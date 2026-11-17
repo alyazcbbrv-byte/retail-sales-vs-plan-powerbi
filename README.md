@@ -164,7 +164,7 @@ Power BI (PBIP, TMDL, PBIR) · DAX (time intelligence, cohort and churn measures
 
 ## Author
 
-**Alyaz Cabbarova**: [GitHub](https://github.com/alyazcbbrv-byte)
+**Alyaz Cabbarova**: [GitHub](https://github.com/alyazcbbrv-byte) · [LinkedIn](https://www.linkedin.com/in/alyaz-cabbarova-450a6140b) · [alyazcbbrv@gmail.com](mailto:alyazcbbrv@gmail.com)
 
 More projects: [Amazon sales analysis](https://github.com/alyazcbbrv-byte/amazon-sales-analysis) · [Toyota sales dashboard](https://github.com/alyazcbbrv-byte/toyota-sales-powerbi)
 

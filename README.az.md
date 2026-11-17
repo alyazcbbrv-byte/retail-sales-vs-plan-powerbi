@@ -163,6 +163,6 @@ Power BI (PBIP, TMDL, PBIR) · DAX (time intelligence, kohort və churn ölçül
 
 ## Müəllif
 
-**Alyaz Cabbarova**: [GitHub](https://github.com/alyazcbbrv-byte)
+**Alyaz Cabbarova**: [GitHub](https://github.com/alyazcbbrv-byte) · [LinkedIn](https://www.linkedin.com/in/alyaz-cabbarova-450a6140b) · [alyazcbbrv@gmail.com](mailto:alyazcbbrv@gmail.com)
 
 Digər layihələr: [Amazon satış analizi](https://github.com/alyazcbbrv-byte/amazon-sales-analysis) · [Toyota satış dashboard-u](https://github.com/alyazcbbrv-byte/toyota-sales-powerbi)
