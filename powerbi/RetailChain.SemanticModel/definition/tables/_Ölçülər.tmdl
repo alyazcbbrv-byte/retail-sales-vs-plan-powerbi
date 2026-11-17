@@ -1,0 +1,164 @@
+table _Ölçülər
+	lineageTag: 64feeb24-2d37-401a-b1fd-a8511b2cfdb5
+
+	/// Seçimdəki satışların cəmi
+	measure Satış = SUM ( fact_sales[Satış] )
+		formatString: #,0
+		displayFolder: 1 · Satış və Plan
+		lineageTag: 5c4398d8-b619-4fe8-ab71-ea40ce159983
+
+	/// Seçimdəki planın cəmi. Diqqət: plan satışın 29 gün gecikmiş nüsxəsidir
+	measure Plan = SUM ( fact_plan[Plan] )
+		formatString: #,0
+		displayFolder: 1 · Satış və Plan
+		lineageTag: f9fd3537-f9e4-4af0-98fc-23cb70806f0e
+
+	/// Satış / Plan
+	measure 'Plan icrası %' = DIVIDE ( [Satış], [Plan] )
+		formatString: 0.0%
+		displayFolder: 1 · Satış və Plan
+		lineageTag: 44041ff6-2446-4ac7-a3ba-e46661008e92
+
+	/// Satış - Plan
+	measure 'Plan fərqi' = [Satış] - [Plan]
+		formatString: +#,0;-#,0;0
+		displayFolder: 1 · Satış və Plan
+		lineageTag: a9a945b6-dc58-4384-92a3-52a65401fa4d
+
+	/// Seçimdəki cəmə görə pay
+	measure 'Satış payı %' = DIVIDE ( [Satış], CALCULATE ( [Satış], ALLSELECTED () ) )
+		formatString: 0.0%
+		displayFolder: 1 · Satış və Plan
+		lineageTag: 13e05027-e530-488b-90cd-e8d070b253e9
+
+	/// Bir mağazanın bir gündəki orta satışı
+	measure 'Orta gündəlik satış' = DIVIDE ( [Satış], COUNTROWS ( fact_sales ) )
+		formatString: #,0
+		displayFolder: 1 · Satış və Plan
+		lineageTag: d061c643-b388-45cf-aa92-fc0132016d18
+
+	/// Seçimdəki son ilin satışı
+	measure 'Cari il satışı' = VAR y = YEAR ( CALCULATE ( MAX ( fact_sales[Tarix] ) ) ) RETURN CALCULATE ( [Satış], FILTER ( VALUES ( 'Calendar'[Date] ), YEAR ( 'Calendar'[Date] ) = y ) )
+		formatString: #,0
+		displayFolder: 2 · Müqayisə (zaman)
+		lineageTag: 80df83fe-1aca-4719-bb51-52cd4e0c8afc
+
+	/// Bir il əvvəlki eyni dövr
+	measure 'Ötən ilin eyni dövrü satışı' = VAR y = YEAR ( CALCULATE ( MAX ( fact_sales[Tarix] ) ) ) RETURN CALCULATE ( [Satış], SAMEPERIODLASTYEAR ( FILTER ( VALUES ( 'Calendar'[Date] ), YEAR ( 'Calendar'[Date] ) = y ) ), REMOVEFILTERS ( 'Calendar' ) )
+		formatString: #,0
+		displayFolder: 2 · Müqayisə (zaman)
+		lineageTag: 404b81a5-fb66-4783-a588-a67825535743
+
+	/// Like-for-like illik artım
+	measure 'İldən ilə artım %' = DIVIDE ( [Cari il satışı] - [Ötən ilin eyni dövrü satışı], [Ötən ilin eyni dövrü satışı] )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2 · Müqayisə (zaman)
+		lineageTag: 3dac19b7-592c-4e6a-9804-a727bb244da0
+
+	/// Seçimdəki son ayın satışı
+	measure 'Cari ay satışı' = VAR d = CALCULATE ( MAX ( fact_sales[Tarix] ) ) RETURN CALCULATE ( [Satış], DATESBETWEEN ( 'Calendar'[Date], EOMONTH ( d, -1 ) + 1, EOMONTH ( d, 0 ) ), REMOVEFILTERS ( 'Calendar' ) )
+		formatString: #,0
+		displayFolder: 2 · Müqayisə (zaman)
+		lineageTag: bdf6cf48-15d7-4a58-b10b-c00ff20dfa92
+
+	/// Son aydan əvvəlki ayın satışı
+	measure 'Ötən ay satışı' = VAR d = CALCULATE ( MAX ( fact_sales[Tarix] ) ) RETURN CALCULATE ( [Satış], DATESBETWEEN ( 'Calendar'[Date], EOMONTH ( d, -2 ) + 1, EOMONTH ( d, -1 ) ), REMOVEFILTERS ( 'Calendar' ) )
+		formatString: #,0
+		displayFolder: 2 · Müqayisə (zaman)
+		lineageTag: 8ae1ed3d-5f08-4653-bc48-3f06aff7fd14
+
+	/// Ay-ay artım
+	measure 'Aylıq artım %' = DIVIDE ( [Cari ay satışı] - [Ötən ay satışı], [Ötən ay satışı] )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2 · Müqayisə (zaman)
+		lineageTag: ba872687-8545-4864-b74b-81c58e6bbe76
+
+	/// YTD
+	measure 'İlin əvvəlindən satış (YTD)' = TOTALYTD ( [Satış], 'Calendar'[Date] )
+		formatString: #,0
+		displayFolder: 2 · Müqayisə (zaman)
+		lineageTag: 126f59ce-a314-485e-83f2-24e64b027740
+
+	/// Seçimdə satışı olan unikal mağaza sayı
+	measure 'Aktiv mağaza sayı' = DISTINCTCOUNT ( fact_sales[Mağaza_Kodu] )
+		formatString: #,0
+		displayFolder: 3 · Mağaza şəbəkəsi
+		lineageTag: 8a41aa28-cef0-4fdc-ac09-e7aca4e4fcf6
+
+	/// Satış / aktiv mağaza
+	measure 'Mağaza başına satış' = FORMAT ( DIVIDE ( [Satış], [Aktiv mağaza sayı] ) / 1000000, "0.00" ) & " M"
+		formatString: #,0
+		displayFolder: 3 · Mağaza şəbəkəsi
+		lineageTag: 9727d186-9495-433e-bf26-c912a3cef0d6
+
+	/// Mağaza cədvəlindəki sətirlər (dövrdən asılı deyil)
+	measure 'Mağaza sayı' = COUNTROWS ( dim_store )
+		formatString: #,0
+		displayFolder: 3 · Mağaza şəbəkəsi
+		lineageTag: 343827a2-bb56-48a1-9257-c7829bb32630
+
+	/// Son satışı 2025-09-01-dən sonra olan mağazalar
+	measure 'Hazırda aktiv mağaza' = CALCULATE ( COUNTROWS ( dim_store ), dim_store[Status] = "Aktiv" )
+		formatString: #,0
+		displayFolder: 4 · Churn analizi
+		lineageTag: 2d68175f-21dd-4e6c-9676-f18a0ebc53b9
+
+	/// Satışı dayanmış mağazalar
+	measure 'Bağlanmış mağaza (cəmi)' = CALCULATE ( COUNTROWS ( dim_store ), dim_store[Status] = "Bağlanıb" )
+		formatString: #,0
+		displayFolder: 4 · Churn analizi
+		lineageTag: 09fa2a4d-ac2d-486e-b51f-bb7f7a20b5aa
+
+	/// Dövr ərzində ilk satışı olan mağaza
+	measure 'Açılan mağaza' = VAR a = MIN ( 'Calendar'[Date] ) VAR b = MAX ( 'Calendar'[Date] ) RETURN COUNTROWS ( FILTER ( dim_store, dim_store[İlk satış] >= a && dim_store[İlk satış] <= b ) )
+		formatString: #,0
+		displayFolder: 4 · Churn analizi
+		lineageTag: 49c18ff2-d671-468a-84bf-58075224e839
+
+	/// Dövr ərzində satışı dayanan mağaza (2025-09-dan sonra müşahidə tamamlanmayıb)
+	measure 'Bağlanan mağaza' = VAR a = MIN ( 'Calendar'[Date] ) VAR e = MIN ( MAX ( 'Calendar'[Date] ), DATE ( 2025, 8, 31 ) ) RETURN IF ( a > DATE ( 2025, 8, 31 ), BLANK (), COUNTROWS ( FILTER ( dim_store, dim_store[Son satış] >= a && dim_store[Son satış] <= e && dim_store[Status] = "Bağlanıb" ) ) )
+		formatString: #,0
+		displayFolder: 4 · Churn analizi
+		lineageTag: cd292fbb-ce1e-4f41-b96e-a2d50500dd21
+
+	/// Churn bazası
+	measure 'Dövrün əvvəlində aktiv mağaza' = VAR a = MIN ( 'Calendar'[Date] ) RETURN COUNTROWS ( FILTER ( dim_store, dim_store[İlk satış] < a && dim_store[Son satış] >= a ) )
+		formatString: #,0
+		displayFolder: 4 · Churn analizi
+		lineageTag: 0a0aae78-636b-473c-8866-425de128aa72
+
+	/// Bağlanan / dövrün əvvəlində aktiv
+	measure 'Churn %' = DIVIDE ( [Bağlanan mağaza], [Dövrün əvvəlində aktiv mağaza] )
+		formatString: 0.0%
+		displayFolder: 4 · Churn analizi
+		lineageTag: 7126f214-deef-419e-99d3-7a2606d6173b
+
+	/// Aylıq churn faizlərinin ortası
+	measure 'Orta aylıq churn %' = AVERAGEX ( VALUES ( 'Calendar'[İlAy] ), [Churn %] )
+		formatString: 0.0%
+		displayFolder: 4 · Churn analizi
+		lineageTag: 912e346f-657a-45dc-9224-baf456e6b678
+
+	/// Bağlanmış mağazaların ilk və son satışı arasındakı gün
+	measure 'Orta mağaza ömrü (gün)' = AVERAGEX ( FILTER ( dim_store, dim_store[Status] = "Bağlanıb" ), DATEDIFF ( dim_store[İlk satış], dim_store[Son satış], DAY ) + 1 )
+		formatString: #,0
+		displayFolder: 4 · Churn analizi
+		lineageTag: 1a1e3137-fe46-4858-b3c9-81bd6dc18a61
+
+	/// Tarixi satışın neçə faizi sonradan bağlanan mağazalardan gəlir
+	measure 'Bağlanmışların satış payı %' = DIVIDE ( CALCULATE ( [Satış], dim_store[Status] = "Bağlanıb" ), [Satış] )
+		formatString: 0.0%
+		displayFolder: 4 · Churn analizi
+		lineageTag: 47fa7b45-31c0-4e8e-a637-587e8f362d9d
+
+	column Ölçülər
+		dataType: int64
+		isHidden
+		lineageTag: 244b7e5a-dd9c-4a6b-ae0e-0381a1e77e2e
+		summarizeBy: none
+		sourceColumn: [Ölçülər]
+
+	partition _Ölçülər = calculated
+		mode: import
+		source = ROW ( "Ölçülər", 1 )
+

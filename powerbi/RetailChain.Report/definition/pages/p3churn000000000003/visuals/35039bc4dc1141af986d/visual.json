@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "35039bc4dc1141af986d",
+  "position": {
+    "x": 443.6,
+    "y": 76,
+    "z": 8000,
+    "height": 92,
+    "width": 197.6,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Ölçülər"
+                    }
+                  },
+                  "Property": "Bağlanmış mağaza (cəmi)"
+                }
+              },
+              "queryRef": "_Ölçülər.Bağlanmış mağaza (cəmi)",
+              "nativeQueryRef": "Bağlanmış mağaza (cəmi)"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

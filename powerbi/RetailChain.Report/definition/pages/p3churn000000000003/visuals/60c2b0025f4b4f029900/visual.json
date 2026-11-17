@@ -1,0 +1,93 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "60c2b0025f4b4f029900",
+  "position": {
+    "x": 236,
+    "y": 180,
+    "z": 12000,
+    "height": 250,
+    "width": 420,
+    "tabOrder": 12000
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "Ay başlanğıcı"
+                }
+              },
+              "queryRef": "Calendar.Ay başlanğıcı",
+              "nativeQueryRef": "Ay başlanğıcı",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Ölçülər"
+                    }
+                  },
+                  "Property": "Açılan mağaza"
+                }
+              },
+              "queryRef": "_Ölçülər.Açılan mağaza",
+              "nativeQueryRef": "Açılan mağaza"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Ölçülər"
+                    }
+                  },
+                  "Property": "Bağlanan mağaza"
+                }
+              },
+              "queryRef": "_Ölçülər.Bağlanan mağaza",
+              "nativeQueryRef": "Bağlanan mağaza"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Açılan və bağlanan mağazalar (aylıq)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

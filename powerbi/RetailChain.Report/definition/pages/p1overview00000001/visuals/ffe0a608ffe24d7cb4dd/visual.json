@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "ffe0a608ffe24d7cb4dd",
+  "position": {
+    "x": 582,
+    "y": 76,
+    "z": 11000,
+    "height": 92,
+    "width": 163,
+    "tabOrder": 11000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Ölçülər"
+                    }
+                  },
+                  "Property": "Plan icrası %"
+                }
+              },
+              "queryRef": "_Ölçülər.Plan icrası %",
+              "nativeQueryRef": "Plan icrası %"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

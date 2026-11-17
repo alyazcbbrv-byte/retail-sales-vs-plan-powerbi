@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "e93f76068c724cdeb934",
+  "position": {
+    "x": 928,
+    "y": 76,
+    "z": 13000,
+    "height": 92,
+    "width": 163,
+    "tabOrder": 13000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Ölçülər"
+                    }
+                  },
+                  "Property": "Hazırda aktiv mağaza"
+                }
+              },
+              "queryRef": "_Ölçülər.Hazırda aktiv mağaza",
+              "nativeQueryRef": "Hazırda aktiv mağaza"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,34 @@
+table fact_sales
+	lineageTag: b9e4bfc0-cd3e-4751-b381-77949eb5a93d
+
+	column Mağaza_Kodu
+		dataType: string
+		lineageTag: 43cbdd47-72f8-44fc-8ccb-ba29ea150066
+		summarizeBy: none
+		sourceColumn: Mağaza_Kodu
+
+	column Tarix
+		dataType: dateTime
+		formatString: dd.MM.yyyy
+		lineageTag: ac025054-6ea9-4f7b-bd6e-2e7b7b915e3d
+		summarizeBy: none
+		sourceColumn: Tarix
+
+	column Satış
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 66e2b61a-0eff-476c-a286-b93755cdc533
+		summarizeBy: none
+		sourceColumn: Satış
+
+	partition fact_sales = m
+		mode: import
+		source =
+				let
+				    Src = Csv.Document(File.Contents(FolderPath & "fact_sales.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Hdr = Table.PromoteHeaders(Src, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Hdr, {{"Mağaza_Kodu", type text}, {"Tarix", type date}, {"Satış", type number}}, "en-US"),
+				    Result = Table.SelectRows(Typed, each [Tarix] >= #date(2022, 1, 1) and [Tarix] <= #date(2025, 9, 30))
+				in
+				    Result
+

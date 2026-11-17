@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "6dbcb775ed724615863d",
+  "position": {
+    "x": 1101,
+    "y": 76,
+    "z": 14000,
+    "height": 92,
+    "width": 163,
+    "tabOrder": 14000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Ölçülər"
+                    }
+                  },
+                  "Property": "Orta gündəlik satış"
+                }
+              },
+              "queryRef": "_Ölçülər.Orta gündəlik satış",
+              "nativeQueryRef": "Orta gündəlik satış"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

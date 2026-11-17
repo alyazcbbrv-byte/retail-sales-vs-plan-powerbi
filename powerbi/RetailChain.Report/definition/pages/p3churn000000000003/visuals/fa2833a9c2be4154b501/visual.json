@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "fa2833a9c2be4154b501",
+  "position": {
+    "x": 858.8,
+    "y": 76,
+    "z": 10000,
+    "height": 92,
+    "width": 197.6,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Ölçülər"
+                    }
+                  },
+                  "Property": "Orta mağaza ömrü (gün)"
+                }
+              },
+              "queryRef": "_Ölçülər.Orta mağaza ömrü (gün)",
+              "nativeQueryRef": "Orta mağaza ömrü (gün)"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

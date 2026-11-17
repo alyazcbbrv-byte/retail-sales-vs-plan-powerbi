@@ -1,0 +1,14 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: en-US
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dim_store
+ref table fact_sales
+ref table fact_plan
+ref table Calendar
+ref table _Ölçülər
+

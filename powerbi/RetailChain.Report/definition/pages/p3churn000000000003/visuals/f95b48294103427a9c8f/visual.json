@@ -1,0 +1,139 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "f95b48294103427a9c8f",
+  "position": {
+    "x": 916,
+    "y": 442,
+    "z": 17000,
+    "height": 250,
+    "width": 348,
+    "tabOrder": 17000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "ƏSAS TAPINTILAR",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#2DD4BF",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Hər mağaza təxminən 500 gün satış edir (median 500, orta 471 gün), sonra satışı dayanır.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#E8EDF5"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Ayda orta 6 mağaza açılır, 6 bağlanır: şəbəkə 2023-dən ~100 mağazada sabitdir.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#E8EDF5"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• 2021–2023-də açılan mağazaların hamısı bağlanıb, 2024-ün 26%-i.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#E8EDF5"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Bu, real bağlanma və ya datanın hazırlanma üsulu ola bilər: biznes ilə dəqiqləşdirin.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#8FA1BF"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#131F36'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#22314D'"
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,20 @@
+# Power BI lokal fayllar (keş, lokal ayarlar)
+**/.pbi/cache.abf
+**/.pbi/localSettings.json
+*.pbix.bak
+
+# Mənbə Excel faylları repo-ya daxil deyil
+data/raw/*
+!data/raw/.gitkeep
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

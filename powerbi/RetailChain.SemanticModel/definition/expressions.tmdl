@@ -1,0 +1,3 @@
+expression FolderPath = "C:\retail-sales-vs-plan-powerbi\data\processed\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 01a36017-8f58-4a54-8376-0ae023227f16
+

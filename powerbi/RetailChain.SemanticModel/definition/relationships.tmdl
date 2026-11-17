@@ -1,0 +1,16 @@
+relationship 97bb78f5-1fa4-4057-96e8-6a2eac463f2d
+	fromColumn: fact_sales.Tarix
+	toColumn: Calendar.Date
+
+relationship ca0deefe-680a-4732-bd07-54da2b4b6b4c
+	fromColumn: fact_plan.Tarix
+	toColumn: Calendar.Date
+
+relationship 8ddc7e14-4d41-40d4-aa45-f79d78ef1609
+	fromColumn: fact_sales.Mağaza_Kodu
+	toColumn: dim_store.Mağaza_Kodu
+
+relationship 36e5b62a-6f91-429b-a1d8-56f0852c7dee
+	fromColumn: fact_plan.Mağaza_Kodu
+	toColumn: dim_store.Mağaza_Kodu
+

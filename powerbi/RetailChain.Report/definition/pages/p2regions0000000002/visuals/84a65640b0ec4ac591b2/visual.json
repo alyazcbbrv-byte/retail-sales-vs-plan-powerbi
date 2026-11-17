@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "84a65640b0ec4ac591b2",
+  "position": {
+    "x": 755,
+    "y": 76,
+    "z": 10000,
+    "height": 92,
+    "width": 249.5,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Ölçülər"
+                    }
+                  },
+                  "Property": "Mağaza başına satış"
+                }
+              },
+              "queryRef": "_Ölçülər.Mağaza başına satış",
+              "nativeQueryRef": "Mağaza başına satış"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

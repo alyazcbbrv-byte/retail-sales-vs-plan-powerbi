@@ -1,0 +1,92 @@
+table dim_store
+	lineageTag: feb79851-a799-42a2-89f9-5d0d0865897a
+
+	column Mağaza_Kodu
+		dataType: string
+		isKey
+		lineageTag: 44b97fb8-7a7b-43f9-a848-1405d56c33ad
+		summarizeBy: none
+		sourceColumn: Mağaza_Kodu
+
+	column Mağaza
+		dataType: string
+		lineageTag: c0c44f52-3806-4cac-93b3-f38fc6bb5c5d
+		summarizeBy: none
+		sourceColumn: Mağaza_adı
+
+	column Region
+		dataType: string
+		lineageTag: 411a6005-ecbb-420b-8ecd-06e1796581e5
+		summarizeBy: none
+		sourceColumn: Region
+
+	column 'Region qrupu'
+		dataType: string
+		lineageTag: e15f3885-3693-4d2f-9b0d-3c96e8893c8a
+		summarizeBy: none
+		sourceColumn: Region_qrupu
+
+	column 'Mağaza nömrəsi'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7b8cbb39-d081-4869-8878-df1ada5cae52
+		summarizeBy: none
+		sourceColumn: Mağaza_nömrəsi
+
+	column 'Açılış ili'
+		dataType: int64
+		formatString: 0
+		lineageTag: 04eca3fb-b0ea-44c2-b2e3-2666b817028a
+		summarizeBy: none
+		sourceColumn: Açılış_ili
+
+	column 'İlk satış'
+		dataType: dateTime
+		formatString: dd.MM.yyyy
+		lineageTag: 8059b1e9-ddb7-4b8f-8d10-07f9d26a9d30
+		summarizeBy: none
+		sourceColumn: İlk_satış
+
+	column 'Son satış'
+		dataType: dateTime
+		formatString: dd.MM.yyyy
+		lineageTag: ebae15cf-fd7f-4926-8ac4-9d7bd0581910
+		summarizeBy: none
+		sourceColumn: Son_satış
+
+	column 'Satış günü'
+		dataType: int64
+		formatString: 0
+		lineageTag: 8a3fc953-195c-4463-9eb5-fd781194a36c
+		summarizeBy: none
+		sourceColumn: Satış_günü
+
+	column 'Orta günlük satış'
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 0b842798-331c-49ce-80a9-ab1c49901a45
+		summarizeBy: none
+		sourceColumn: Orta_günlük_satış
+
+	column 'Ölçü qrupu'
+		dataType: string
+		lineageTag: a4fc98a9-d513-4daa-ac4d-18e14d5252ba
+		summarizeBy: none
+		sourceColumn: Ölçü_qrupu
+
+	column Status
+		dataType: string
+		lineageTag: 2852c8bb-f6c0-4d4d-ac69-6de1b82b9a1e
+		summarizeBy: none
+		sourceColumn: Status
+
+	partition dim_store = m
+		mode: import
+		source =
+				let
+				    Src = Csv.Document(File.Contents(FolderPath & "dim_store.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Hdr = Table.PromoteHeaders(Src, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Hdr, {{"Mağaza_Kodu", type text}, {"Mağaza_adı", type text}, {"Region", type text}, {"Region_qrupu", type text}, {"Mağaza_nömrəsi", Int64.Type}, {"Açılış_ili", Int64.Type}, {"İlk_satış", type date}, {"Son_satış", type date}, {"Satış_günü", Int64.Type}, {"Orta_günlük_satış", type number}, {"Ölçü_qrupu", type text}, {"Status", type text}}, "en-US")
+				in
+				    Typed
+

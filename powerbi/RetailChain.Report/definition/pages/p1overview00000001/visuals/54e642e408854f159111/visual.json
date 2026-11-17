@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "54e642e408854f159111",
+  "position": {
+    "x": 755,
+    "y": 76,
+    "z": 12000,
+    "height": 92,
+    "width": 163,
+    "tabOrder": 12000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Ölçülər"
+                    }
+                  },
+                  "Property": "İldən ilə artım %"
+                }
+              },
+              "queryRef": "_Ölçülər.İldən ilə artım %",
+              "nativeQueryRef": "İldən ilə artım %"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

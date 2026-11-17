@@ -1,0 +1,275 @@
+Mağaza_Kodu,Mağaza_adı,Region,Region_qrupu,Mağaza_nömrəsi,Açılış_ili,İlk_satış,Son_satış,Satış_günü,Orta_günlük_satış,Ölçü_qrupu,Status
+222.A,Abşeron 1,Abşeron,Bakı və Abşeron,1,2022,2022-02-26,2023-07-10,500,2199.36,Kiçik,Bağlanıb
+272.A,Abşeron 2,Abşeron,Bakı və Abşeron,2,2022,2022-11-03,2024-03-16,500,2722.69,Kiçik,Bağlanıb
+322.A,Abşeron 3,Abşeron,Bakı və Abşeron,3,2023,2023-07-11,2024-11-21,500,3144.73,Orta,Bağlanıb
+372.A,Abşeron 4,Abşeron,Bakı və Abşeron,4,2024,2024-03-17,2025-08-02,504,4141.58,Orta,Bağlanıb
+422.A,Abşeron 5,Abşeron,Bakı və Abşeron,5,2024,2024-11-22,2025-10-01,314,5392.06,Böyük,Aktiv
+472.A,Abşeron 6,Abşeron,Bakı və Abşeron,6,2025,2025-05-21,2025-10-01,134,5305.67,Böyük,Aktiv
+522.A,Abşeron 7,Abşeron,Bakı və Abşeron,7,2025,2025-06-20,2025-10-01,104,5129.10,Böyük,Aktiv
+572.A,Abşeron 8,Abşeron,Bakı və Abşeron,8,2025,2025-07-05,2025-10-01,89,5634.04,Böyük,Aktiv
+622.A,Abşeron 9,Abşeron,Bakı və Abşeron,9,2025,2025-07-20,2025-08-06,18,6289.62,Böyük,Bağlanıb
+200.A,Astara 1,Astara,Rayonlar,1,2021,2021-11-08,2022-11-06,364,2868.25,Kiçik,Bağlanıb
+250.A,Astara 2,Astara,Rayonlar,2,2022,2022-07-16,2023-11-27,500,2334.46,Kiçik,Bağlanıb
+300.A,Astara 3,Astara,Rayonlar,3,2023,2023-03-23,2024-08-03,500,2993.14,Orta,Bağlanıb
+350.A,Astara 4,Astara,Rayonlar,4,2023,2023-11-28,2025-04-10,500,3954.77,Orta,Bağlanıb
+400.A,Astara 5,Astara,Rayonlar,5,2024,2024-08-04,2025-10-01,424,4895.05,Böyük,Aktiv
+671.A,Astara 11,Astara,Rayonlar,11,2025,2025-08-04,2025-08-06,3,2892.47,Kiçik,Bağlanıb
+217.A,Ağcabədi 1,Ağcabədi,Rayonlar,1,2022,2022-02-01,2023-06-15,500,2288.30,Kiçik,Bağlanıb
+267.A,Ağcabədi 2,Ağcabədi,Rayonlar,2,2022,2022-10-09,2024-02-20,500,2656.36,Kiçik,Bağlanıb
+317.A,Ağcabədi 3,Ağcabədi,Rayonlar,3,2023,2023-06-16,2024-10-27,500,3188.62,Orta,Bağlanıb
+367.A,Ağcabədi 4,Ağcabədi,Rayonlar,4,2024,2024-02-21,2025-08-02,529,4226.94,Orta,Bağlanıb
+417.A,Ağcabədi 5,Ağcabədi,Rayonlar,5,2024,2024-10-28,2025-10-01,339,5002.99,Böyük,Aktiv
+231.A,Ağdaş 1,Ağdaş,Rayonlar,1,2022,2022-04-12,2023-08-24,500,2167.58,Kiçik,Bağlanıb
+281.A,Ağdaş 2,Ağdaş,Rayonlar,2,2022,2022-12-18,2024-04-30,500,2880.32,Kiçik,Bağlanıb
+331.A,Ağdaş 3,Ağdaş,Rayonlar,3,2023,2023-08-25,2025-01-05,500,3324.34,Orta,Bağlanıb
+381.A,Ağdaş 4,Ağdaş,Rayonlar,4,2024,2024-05-01,2025-09-12,500,4646.99,Böyük,Aktiv
+431.A,Ağdaş 5,Ağdaş,Rayonlar,5,2025,2025-01-06,2025-10-01,269,5057.45,Böyük,Aktiv
+242.A,Ağstafa 1,Ağstafa,Rayonlar,1,2022,2022-06-06,2023-10-18,500,2283.90,Kiçik,Bağlanıb
+292.A,Ağstafa 2,Ağstafa,Rayonlar,2,2023,2023-02-11,2024-06-24,500,2909.86,Kiçik,Bağlanıb
+342.A,Ağstafa 3,Ağstafa,Rayonlar,3,2023,2023-10-19,2025-03-01,500,3962.87,Orta,Bağlanıb
+392.A,Ağstafa 4,Ağstafa,Rayonlar,4,2024,2024-06-25,2025-10-01,464,4669.26,Böyük,Aktiv
+442.A,Ağstafa 5,Ağstafa,Rayonlar,5,2025,2025-03-02,2025-10-01,214,5233.02,Böyük,Aktiv
+226.A,Ağsu 1,Ağsu,Rayonlar,1,2022,2022-03-18,2023-07-30,500,2023.86,Kiçik,Bağlanıb
+276.A,Ağsu 2,Ağsu,Rayonlar,2,2022,2022-11-23,2024-04-05,500,2842.06,Kiçik,Bağlanıb
+326.A,Ağsu 3,Ağsu,Rayonlar,3,2023,2023-07-31,2024-12-11,500,3450.51,Orta,Bağlanıb
+376.A,Ağsu 4,Ağsu,Rayonlar,4,2024,2024-04-06,2025-08-18,500,4284.55,Orta,Bağlanıb
+426.A,Ağsu 5,Ağsu,Rayonlar,5,2024,2024-12-12,2025-10-01,294,5412.02,Böyük,Aktiv
+220.B,Bakı 1,Bakı,Bakı və Abşeron,1,2022,2022-02-16,2023-06-30,500,2212.40,Kiçik,Bağlanıb
+270.B,Bakı 2,Bakı,Bakı və Abşeron,2,2022,2022-10-24,2024-03-06,500,2841.43,Kiçik,Bağlanıb
+320.B,Bakı 3,Bakı,Bakı və Abşeron,3,2023,2023-07-01,2024-11-11,500,3218.92,Orta,Bağlanıb
+370.B,Bakı 4,Bakı,Bakı və Abşeron,4,2024,2024-03-07,2025-07-19,500,4431.51,Orta,Bağlanıb
+420.B,Bakı 5,Bakı,Bakı və Abşeron,5,2024,2024-11-12,2025-10-01,324,4811.71,Böyük,Aktiv
+470.B,Bakı 6,Bakı,Bakı və Abşeron,6,2025,2025-05-16,2025-10-01,139,5178.95,Böyük,Aktiv
+520.B,Bakı 7,Bakı,Bakı və Abşeron,7,2025,2025-08-08,2025-10-01,55,5147.10,Böyük,Aktiv
+570.B,Bakı 8,Bakı,Bakı və Abşeron,8,2025,2025-06-30,2025-10-01,94,5218.27,Böyük,Aktiv
+620.B,Bakı 9,Bakı,Bakı və Abşeron,9,2025,2025-07-15,2025-08-06,23,4220.47,Orta,Bağlanıb
+670.B,Bakı 10,Bakı,Bakı və Abşeron,10,2025,2025-07-30,2025-08-06,8,5683.11,Böyük,Bağlanıb
+451.L,Bakı 11,Bakı,Bakı və Abşeron,11,2025,2025-04-11,2025-10-01,174,5179.01,Böyük,Aktiv
+454.Y,Bakı 12,Bakı,Bakı və Abşeron,12,2025,2025-04-16,2025-10-01,169,5092.26,Böyük,Aktiv
+457.N,Bakı 13,Bakı,Bakı və Abşeron,13,2025,2025-04-21,2025-10-01,164,5055.80,Böyük,Aktiv
+460.S,Bakı 14,Bakı,Bakı və Abşeron,14,2025,2025-04-26,2025-10-01,159,5218.66,Böyük,Aktiv
+463.S,Bakı 15,Bakı,Bakı və Abşeron,15,2025,2025-05-01,2025-10-01,154,5422.69,Böyük,Aktiv
+466.H,Bakı 16,Bakı,Bakı və Abşeron,16,2025,2025-05-06,2025-10-01,149,5183.93,Böyük,Aktiv
+469.K,Bakı 17,Bakı,Bakı və Abşeron,17,2025,2025-05-11,2025-10-01,144,5207.40,Böyük,Aktiv
+474.D,Bakı 18,Bakı,Bakı və Abşeron,18,2025,2025-05-26,2025-10-01,129,5210.14,Böyük,Aktiv
+478.G,Bakı 19,Bakı,Bakı və Abşeron,19,2025,2025-06-05,2025-10-01,119,4801.89,Böyük,Aktiv
+481.A,Bakı 20,Bakı,Bakı və Abşeron,20,2025,2025-06-10,2025-10-01,114,4900.41,Böyük,Aktiv
+249.B,Balakən 1,Balakən,Rayonlar,1,2022,2022-07-11,2023-11-22,500,2249.09,Kiçik,Bağlanıb
+299.B,Balakən 2,Balakən,Rayonlar,2,2023,2023-03-18,2024-07-29,500,3076.40,Orta,Bağlanıb
+349.B,Balakən 3,Balakən,Rayonlar,3,2023,2023-11-23,2025-01-03,408,3726.33,Orta,Bağlanıb
+399.B,Balakən 4,Balakən,Rayonlar,4,2024,2024-07-30,2025-10-01,429,4738.07,Böyük,Aktiv
+449.B,Balakən 5,Balakən,Rayonlar,5,2025,2025-04-06,2025-10-01,179,5048.48,Böyük,Aktiv
+211.B,Beyləqan 1,Beyləqan,Rayonlar,1,2022,2022-01-02,2023-05-16,500,2500.91,Kiçik,Bağlanıb
+261.B,Beyləqan 2,Beyləqan,Rayonlar,2,2022,2022-09-09,2024-01-21,500,2525.41,Kiçik,Bağlanıb
+311.B,Beyləqan 3,Beyləqan,Rayonlar,3,2023,2023-05-17,2024-09-27,500,2959.56,Orta,Bağlanıb
+361.B,Beyləqan 4,Beyləqan,Rayonlar,4,2024,2024-01-22,2025-06-04,500,4256.30,Orta,Bağlanıb
+411.B,Beyləqan 5,Beyləqan,Rayonlar,5,2024,2024-09-28,2025-10-01,369,4666.22,Böyük,Aktiv
+209.B,Biləsuvar 1,Biləsuvar,Rayonlar,1,2021,2021-12-23,2023-05-06,500,2628.70,Kiçik,Bağlanıb
+259.B,Biləsuvar 2,Biləsuvar,Rayonlar,2,2022,2022-08-30,2024-01-11,500,2542.49,Kiçik,Bağlanıb
+309.B,Biləsuvar 3,Biləsuvar,Rayonlar,3,2023,2023-05-07,2024-09-17,500,3039.61,Orta,Bağlanıb
+359.B,Biləsuvar 4,Biləsuvar,Rayonlar,4,2024,2024-01-12,2025-05-25,500,4216.81,Orta,Bağlanıb
+409.B,Biləsuvar 5,Biləsuvar,Rayonlar,5,2024,2024-09-18,2025-10-01,379,4784.70,Böyük,Aktiv
+221.B,Bərdə 1,Bərdə,Rayonlar,1,2022,2022-02-21,2023-07-05,500,2244.65,Kiçik,Bağlanıb
+271.B,Bərdə 2,Bərdə,Rayonlar,2,2022,2022-10-29,2024-03-11,500,2658.80,Kiçik,Bağlanıb
+321.B,Bərdə 3,Bərdə,Rayonlar,3,2023,2023-07-06,2024-11-16,500,3325.99,Orta,Bağlanıb
+371.B,Bərdə 4,Bərdə,Rayonlar,4,2024,2024-03-12,2025-08-02,509,4304.89,Orta,Bağlanıb
+421.B,Bərdə 5,Bərdə,Rayonlar,5,2024,2024-11-17,2025-10-01,319,4915.56,Böyük,Aktiv
+206.C,Cəlilabad 1,Cəlilabad,Rayonlar,1,2021,2021-12-08,2023-04-21,500,2483.10,Kiçik,Bağlanıb
+256.C,Cəlilabad 2,Cəlilabad,Rayonlar,2,2022,2022-08-15,2023-12-27,500,2330.94,Kiçik,Bağlanıb
+306.C,Cəlilabad 3,Cəlilabad,Rayonlar,3,2023,2023-04-22,2024-09-02,500,3012.47,Orta,Bağlanıb
+356.C,Cəlilabad 4,Cəlilabad,Rayonlar,4,2023,2023-12-28,2025-05-10,500,4001.14,Orta,Bağlanıb
+406.C,Cəlilabad 5,Cəlilabad,Rayonlar,5,2024,2024-09-03,2025-10-01,394,4918.34,Böyük,Aktiv
+224.D,Daşkəsən 1,Daşkəsən,Rayonlar,1,2022,2022-03-08,2023-07-20,500,2097.96,Kiçik,Bağlanıb
+274.D,Daşkəsən 2,Daşkəsən,Rayonlar,2,2022,2022-11-13,2024-03-26,500,2701.29,Kiçik,Bağlanıb
+324.D,Daşkəsən 3,Daşkəsən,Rayonlar,3,2023,2023-07-21,2024-12-01,500,3255.87,Orta,Bağlanıb
+374.D,Daşkəsən 4,Daşkəsən,Rayonlar,4,2024,2024-03-27,2025-09-02,525,4203.50,Orta,Aktiv
+424.D,Daşkəsən 5,Daşkəsən,Rayonlar,5,2024,2024-12-02,2025-10-01,304,5518.39,Böyük,Aktiv
+228.G,Goranboy 1,Goranboy,Rayonlar,1,2022,2022-03-28,2023-08-09,500,2147.21,Kiçik,Bağlanıb
+278.G,Goranboy 2,Goranboy,Rayonlar,2,2022,2022-12-03,2024-04-15,500,2870.92,Kiçik,Bağlanıb
+328.G,Goranboy 3,Goranboy,Rayonlar,3,2023,2023-08-10,2024-12-21,500,3322.54,Orta,Bağlanıb
+378.G,Goranboy 4,Goranboy,Rayonlar,4,2024,2024-04-16,2025-09-02,505,4734.17,Böyük,Aktiv
+428.G,Goranboy 5,Goranboy,Rayonlar,5,2024,2024-12-22,2025-10-01,284,4992.82,Böyük,Aktiv
+232.G,Göyçay 1,Göyçay,Rayonlar,1,2022,2022-04-17,2023-08-29,500,2138.68,Kiçik,Bağlanıb
+282.G,Göyçay 2,Göyçay,Rayonlar,2,2022,2022-12-23,2024-05-05,500,2798.38,Kiçik,Bağlanıb
+332.G,Göyçay 3,Göyçay,Rayonlar,3,2023,2023-08-30,2025-01-10,500,3609.21,Orta,Bağlanıb
+382.G,Göyçay 4,Göyçay,Rayonlar,4,2024,2024-05-06,2025-09-17,500,4484.26,Orta,Aktiv
+432.G,Göyçay 5,Göyçay,Rayonlar,5,2025,2025-01-11,2025-10-01,264,5515.03,Böyük,Aktiv
+225.G,Gədəbəy 1,Gədəbəy,Rayonlar,1,2022,2022-03-13,2023-07-25,500,2128.52,Kiçik,Bağlanıb
+275.G,Gədəbəy 2,Gədəbəy,Rayonlar,2,2022,2022-11-18,2024-03-31,500,2772.91,Kiçik,Bağlanıb
+325.G,Gədəbəy 3,Gədəbəy,Rayonlar,3,2023,2023-07-26,2024-12-06,500,3298.73,Orta,Bağlanıb
+375.G,Gədəbəy 4,Gədəbəy,Rayonlar,4,2024,2024-04-01,2025-08-13,500,4560.46,Orta,Bağlanıb
+425.G,Gədəbəy 5,Gədəbəy,Rayonlar,5,2024,2024-12-07,2025-10-01,299,5099.94,Böyük,Aktiv
+233.G,Gəncə 1,Gəncə,Rayonlar,1,2022,2022-04-22,2023-09-03,500,2043.12,Kiçik,Bağlanıb
+283.G,Gəncə 2,Gəncə,Rayonlar,2,2022,2022-12-28,2024-05-10,500,2592.31,Kiçik,Bağlanıb
+333.G,Gəncə 3,Gəncə,Rayonlar,3,2023,2023-09-04,2024-12-06,460,3432.46,Orta,Bağlanıb
+383.G,Gəncə 4,Gəncə,Rayonlar,4,2024,2024-05-11,2025-10-01,509,4691.13,Böyük,Aktiv
+433.G,Gəncə 5,Gəncə,Rayonlar,5,2025,2025-01-16,2025-10-01,259,5017.58,Böyük,Aktiv
+216.H,Hacıqabul 1,Hacıqabul,Rayonlar,1,2022,2022-01-27,2023-06-10,500,2329.91,Kiçik,Bağlanıb
+266.H,Hacıqabul 2,Hacıqabul,Rayonlar,2,2022,2022-10-04,2024-02-15,500,2412.63,Kiçik,Bağlanıb
+316.H,Hacıqabul 3,Hacıqabul,Rayonlar,3,2023,2023-06-11,2024-10-22,500,3244.09,Orta,Bağlanıb
+366.H,Hacıqabul 4,Hacıqabul,Rayonlar,4,2024,2024-02-16,2025-06-29,500,4444.16,Orta,Bağlanıb
+416.H,Hacıqabul 5,Hacıqabul,Rayonlar,5,2024,2024-10-23,2025-10-01,344,5053.05,Böyük,Aktiv
+219.K,Kürdəmir 1,Kürdəmir,Rayonlar,1,2022,2022-02-11,2023-06-25,500,2260.00,Kiçik,Bağlanıb
+269.K,Kürdəmir 2,Kürdəmir,Rayonlar,2,2022,2022-10-19,2024-03-01,500,2645.97,Kiçik,Bağlanıb
+319.K,Kürdəmir 3,Kürdəmir,Rayonlar,3,2023,2023-06-26,2024-11-06,500,3212.55,Orta,Bağlanıb
+369.K,Kürdəmir 4,Kürdəmir,Rayonlar,4,2024,2024-03-02,2025-08-02,519,4393.61,Orta,Bağlanıb
+419.K,Kürdəmir 5,Kürdəmir,Rayonlar,5,2024,2024-11-07,2025-10-01,329,5339.67,Böyük,Aktiv
+202.L,Lerik 1,Lerik,Rayonlar,1,2021,2021-11-18,2023-04-01,500,2769.60,Kiçik,Bağlanıb
+252.L,Lerik 2,Lerik,Rayonlar,2,2022,2022-07-26,2023-12-07,500,2317.63,Kiçik,Bağlanıb
+302.L,Lerik 3,Lerik,Rayonlar,3,2023,2023-04-02,2024-08-13,500,2918.44,Orta,Bağlanıb
+352.L,Lerik 4,Lerik,Rayonlar,4,2023,2023-12-08,2025-04-20,500,4177.45,Orta,Bağlanıb
+402.L,Lerik 5,Lerik,Rayonlar,5,2024,2024-08-14,2025-10-01,414,4803.38,Böyük,Aktiv
+201.L,Lənkəran 1,Lənkəran,Rayonlar,1,2021,2021-11-13,2023-01-04,418,2848.75,Kiçik,Bağlanıb
+251.L,Lənkəran 2,Lənkəran,Rayonlar,2,2022,2022-07-21,2023-12-02,500,2321.09,Kiçik,Bağlanıb
+301.L,Lənkəran 3,Lənkəran,Rayonlar,3,2023,2023-03-28,2024-08-08,500,2952.40,Orta,Bağlanıb
+351.L,Lənkəran 4,Lənkəran,Rayonlar,4,2023,2023-12-03,2025-04-15,500,4145.54,Orta,Bağlanıb
+401.L,Lənkəran 5,Lənkəran,Rayonlar,5,2024,2024-08-09,2025-10-01,419,5028.91,Böyük,Aktiv
+205.M,Masallı 1,Masallı,Rayonlar,1,2021,2021-12-03,2023-04-16,500,2643.14,Kiçik,Bağlanıb
+255.M,Masallı 2,Masallı,Rayonlar,2,2022,2022-08-10,2023-12-22,500,2366.98,Kiçik,Bağlanıb
+305.M,Masallı 3,Masallı,Rayonlar,3,2023,2023-04-17,2024-08-28,500,3021.30,Orta,Bağlanıb
+355.M,Masallı 4,Masallı,Rayonlar,4,2023,2023-12-23,2025-05-05,500,4317.33,Orta,Bağlanıb
+405.M,Masallı 5,Masallı,Rayonlar,5,2024,2024-08-29,2025-10-01,399,4929.31,Böyük,Aktiv
+234.M,Mingəçevir 1,Mingəçevir,Rayonlar,1,2022,2022-04-27,2023-09-08,500,2106.66,Kiçik,Bağlanıb
+284.M,Mingəçevir 2,Mingəçevir,Rayonlar,2,2023,2023-01-02,2024-05-15,500,2920.10,Orta,Bağlanıb
+334.M,Mingəçevir 3,Mingəçevir,Rayonlar,3,2023,2023-09-09,2025-01-20,500,3433.64,Orta,Bağlanıb
+384.M,Mingəçevir 4,Mingəçevir,Rayonlar,4,2024,2024-05-16,2025-10-01,504,4722.09,Böyük,Aktiv
+434.M,Mingəçevir 5,Mingəçevir,Rayonlar,5,2025,2025-01-21,2025-10-01,254,4947.83,Böyük,Aktiv
+207.N,Naxçıvan 1,Naxçıvan,Rayonlar,1,2021,2021-12-13,2022-11-06,329,2621.42,Kiçik,Bağlanıb
+257.N,Naxçıvan 2,Naxçıvan,Rayonlar,2,2022,2022-08-20,2024-01-01,500,2473.36,Kiçik,Bağlanıb
+307.N,Naxçıvan 3,Naxçıvan,Rayonlar,3,2023,2023-04-27,2024-09-07,500,3152.72,Orta,Bağlanıb
+357.N,Naxçıvan 4,Naxçıvan,Rayonlar,4,2024,2024-08-07,2024-11-05,91,3615.18,Orta,Bağlanıb
+407.N,Naxçıvan 5,Naxçıvan,Rayonlar,5,2024,2024-09-08,2025-10-01,389,4729.85,Böyük,Aktiv
+208.N,Neftçala 1,Neftçala,Rayonlar,1,2021,2021-12-18,2023-05-01,500,2606.53,Kiçik,Bağlanıb
+258.N,Neftçala 2,Neftçala,Rayonlar,2,2022,2022-08-25,2024-01-06,500,2479.95,Kiçik,Bağlanıb
+308.N,Neftçala 3,Neftçala,Rayonlar,3,2023,2023-05-02,2024-09-12,500,3075.17,Orta,Bağlanıb
+358.N,Neftçala 4,Neftçala,Rayonlar,4,2024,2024-01-07,2025-05-20,500,4162.17,Orta,Bağlanıb
+408.N,Neftçala 5,Neftçala,Rayonlar,5,2024,2024-09-13,2025-10-01,384,4931.00,Böyük,Aktiv
+203.O,Ordubad 1,Ordubad,Rayonlar,1,2021,2021-11-23,2023-04-06,500,2699.44,Kiçik,Bağlanıb
+253.O,Ordubad 2,Ordubad,Rayonlar,2,2022,2022-07-31,2023-12-12,500,2475.93,Kiçik,Bağlanıb
+303.O,Ordubad 3,Ordubad,Rayonlar,3,2023,2023-04-07,2024-08-18,500,3061.19,Orta,Bağlanıb
+353.O,Ordubad 4,Ordubad,Rayonlar,4,2023,2023-12-13,2025-04-25,500,4172.78,Orta,Bağlanıb
+403.O,Ordubad 5,Ordubad,Rayonlar,5,2024,2024-08-19,2025-10-01,409,4844.61,Böyük,Aktiv
+239.O,Oğuz 1,Oğuz,Rayonlar,1,2022,2022-05-22,2023-10-03,500,2299.18,Kiçik,Bağlanıb
+289.O,Oğuz 2,Oğuz,Rayonlar,2,2023,2023-01-27,2024-06-09,500,3120.02,Orta,Bağlanıb
+339.O,Oğuz 3,Oğuz,Rayonlar,3,2023,2023-10-04,2025-02-14,500,3612.97,Orta,Bağlanıb
+389.O,Oğuz 4,Oğuz,Rayonlar,4,2024,2024-06-10,2025-10-01,479,4736.69,Böyük,Aktiv
+439.O,Oğuz 5,Oğuz,Rayonlar,5,2025,2025-02-15,2025-10-01,229,4988.20,Böyük,Aktiv
+245.Q,Qax 1,Qax,Rayonlar,1,2022,2022-06-21,2023-11-02,500,2308.51,Kiçik,Bağlanıb
+295.Q,Qax 2,Qax,Rayonlar,2,2023,2023-02-26,2024-07-09,500,2886.91,Kiçik,Bağlanıb
+345.Q,Qax 3,Qax,Rayonlar,3,2023,2023-11-03,2025-03-16,500,4231.05,Orta,Bağlanıb
+395.Q,Qax 4,Qax,Rayonlar,4,2024,2024-07-10,2025-10-01,449,4753.19,Böyük,Aktiv
+445.Q,Qax 5,Qax,Rayonlar,5,2025,2025-03-17,2025-10-01,199,5401.19,Böyük,Aktiv
+241.Q,Qazax 1,Qazax,Rayonlar,1,2022,2022-06-01,2023-10-13,500,2171.00,Kiçik,Bağlanıb
+291.Q,Qazax 2,Qazax,Rayonlar,2,2023,2023-02-06,2024-06-19,500,2870.00,Kiçik,Bağlanıb
+341.Q,Qazax 3,Qazax,Rayonlar,3,2023,2023-10-14,2025-02-24,500,3551.07,Orta,Bağlanıb
+391.Q,Qazax 4,Qazax,Rayonlar,4,2024,2024-06-20,2025-10-01,469,4859.11,Böyük,Aktiv
+441.Q,Qazax 5,Qazax,Rayonlar,5,2025,2025-08-08,2025-10-01,55,5166.28,Böyük,Aktiv
+244.Q,Quba 1,Quba,Rayonlar,1,2022,2022-06-16,2023-10-28,500,2185.93,Kiçik,Bağlanıb
+294.Q,Quba 2,Quba,Rayonlar,2,2023,2023-02-21,2024-07-04,500,2933.78,Orta,Bağlanıb
+344.Q,Quba 3,Quba,Rayonlar,3,2023,2023-10-29,2025-03-11,500,3828.02,Orta,Bağlanıb
+394.Q,Quba 4,Quba,Rayonlar,4,2024,2024-07-05,2025-10-01,454,4874.65,Böyük,Aktiv
+444.Q,Quba 5,Quba,Rayonlar,5,2025,2025-03-12,2025-10-01,204,5331.25,Böyük,Aktiv
+246.Q,Qusar 1,Qusar,Rayonlar,1,2022,2022-06-26,2023-11-07,500,2192.42,Kiçik,Bağlanıb
+296.Q,Qusar 2,Qusar,Rayonlar,2,2023,2023-03-03,2024-07-14,500,2987.01,Orta,Bağlanıb
+346.Q,Qusar 3,Qusar,Rayonlar,3,2023,2023-11-08,2025-01-03,423,3929.65,Orta,Bağlanıb
+396.Q,Qusar 4,Qusar,Rayonlar,4,2024,2024-07-15,2025-10-01,444,4870.76,Böyük,Aktiv
+446.Q,Qusar 5,Qusar,Rayonlar,5,2025,2025-08-08,2025-10-01,55,5671.60,Böyük,Aktiv
+237.Q,Qəbələ 1,Qəbələ,Rayonlar,1,2022,2022-05-12,2023-09-23,500,2237.11,Kiçik,Bağlanıb
+287.Q,Qəbələ 2,Qəbələ,Rayonlar,2,2023,2023-01-17,2024-05-30,500,3108.86,Orta,Bağlanıb
+337.Q,Qəbələ 3,Qəbələ,Rayonlar,3,2023,2023-09-24,2025-02-04,500,3487.83,Orta,Bağlanıb
+387.Q,Qəbələ 4,Qəbələ,Rayonlar,4,2024,2024-05-31,2025-10-01,489,4697.49,Böyük,Aktiv
+437.Q,Qəbələ 5,Qəbələ,Rayonlar,5,2025,2025-02-05,2025-10-01,239,5433.54,Böyük,Aktiv
+213.S,Saatlı 1,Saatlı,Rayonlar,1,2022,2022-01-12,2023-05-26,500,2450.25,Kiçik,Bağlanıb
+263.S,Saatlı 2,Saatlı,Rayonlar,2,2022,2022-09-19,2024-01-31,500,2552.86,Kiçik,Bağlanıb
+313.S,Saatlı 3,Saatlı,Rayonlar,3,2023,2023-05-27,2024-10-07,500,3023.28,Orta,Bağlanıb
+363.S,Saatlı 4,Saatlı,Rayonlar,4,2024,2024-02-01,2025-06-14,500,4330.95,Orta,Bağlanıb
+413.S,Saatlı 5,Saatlı,Rayonlar,5,2024,2024-10-08,2025-10-01,359,5252.56,Böyük,Aktiv
+215.S,Sabirabad 1,Sabirabad,Rayonlar,1,2022,2022-01-22,2023-06-05,500,2378.22,Kiçik,Bağlanıb
+265.S,Sabirabad 2,Sabirabad,Rayonlar,2,2022,2022-09-29,2024-02-10,500,2621.17,Kiçik,Bağlanıb
+315.S,Sabirabad 3,Sabirabad,Rayonlar,3,2023,2023-06-06,2024-10-17,500,3013.03,Orta,Bağlanıb
+365.S,Sabirabad 4,Sabirabad,Rayonlar,4,2024,2024-02-11,2025-06-24,500,4368.69,Orta,Bağlanıb
+415.S,Sabirabad 5,Sabirabad,Rayonlar,5,2024,2024-10-18,2025-10-01,349,4952.81,Böyük,Aktiv
+210.S,Salyan 1,Salyan,Rayonlar,1,2021,2021-12-28,2023-05-11,500,2407.61,Kiçik,Bağlanıb
+260.S,Salyan 2,Salyan,Rayonlar,2,2022,2022-09-04,2024-01-16,500,2468.96,Kiçik,Bağlanıb
+310.S,Salyan 3,Salyan,Rayonlar,3,2023,2023-05-12,2024-09-22,500,3146.06,Orta,Bağlanıb
+360.S,Salyan 4,Salyan,Rayonlar,4,2024,2024-08-07,2024-11-05,91,3542.97,Orta,Bağlanıb
+410.S,Salyan 5,Salyan,Rayonlar,5,2024,2024-09-23,2025-10-01,374,5278.92,Böyük,Aktiv
+240.S,Siyəzən 1,Siyəzən,Rayonlar,1,2022,2022-05-27,2023-10-08,500,2112.80,Kiçik,Bağlanıb
+290.S,Siyəzən 2,Siyəzən,Rayonlar,2,2023,2023-08-08,2023-11-06,91,2531.87,Kiçik,Bağlanıb
+340.S,Siyəzən 3,Siyəzən,Rayonlar,3,2023,2023-10-09,2025-02-19,500,3743.86,Orta,Bağlanıb
+390.S,Siyəzən 4,Siyəzən,Rayonlar,4,2024,2024-06-15,2025-10-01,474,4800.16,Böyük,Aktiv
+440.S,Siyəzən 5,Siyəzən,Rayonlar,5,2025,2025-02-20,2025-10-01,224,5517.31,Böyük,Aktiv
+227.S,Sumqayıt 1,Sumqayıt,Bakı və Abşeron,1,2022,2022-03-23,2023-08-04,500,2164.39,Kiçik,Bağlanıb
+277.S,Sumqayıt 2,Sumqayıt,Bakı və Abşeron,2,2022,2022-11-28,2024-04-10,500,2722.29,Kiçik,Bağlanıb
+327.S,Sumqayıt 3,Sumqayıt,Bakı və Abşeron,3,2023,2023-08-05,2024-12-16,500,3281.50,Orta,Bağlanıb
+377.S,Sumqayıt 4,Sumqayıt,Bakı və Abşeron,4,2024,2024-04-11,2025-09-02,510,4670.02,Böyük,Aktiv
+427.S,Sumqayıt 5,Sumqayıt,Bakı və Abşeron,5,2024,2024-12-17,2025-10-01,289,5498.55,Böyük,Aktiv
+477.S,Sumqayıt 6,Sumqayıt,Bakı və Abşeron,6,2025,2025-05-31,2025-10-01,124,5835.58,Böyük,Aktiv
+527.S,Sumqayıt 7,Sumqayıt,Bakı və Abşeron,7,2025,2025-06-25,2025-10-01,99,5480.83,Böyük,Aktiv
+577.S,Sumqayıt 8,Sumqayıt,Bakı və Abşeron,8,2025,2025-07-10,2025-10-01,84,6194.25,Böyük,Aktiv
+627.S,Sumqayıt 9,Sumqayıt,Bakı və Abşeron,9,2025,2025-07-25,2025-08-06,13,6009.90,Böyük,Bağlanıb
+238.T,Tovuz 1,Tovuz,Rayonlar,1,2022,2022-05-17,2023-09-28,500,2254.33,Kiçik,Bağlanıb
+288.T,Tovuz 2,Tovuz,Rayonlar,2,2023,2023-08-08,2023-11-06,91,2485.38,Kiçik,Bağlanıb
+338.T,Tovuz 3,Tovuz,Rayonlar,3,2023,2023-09-29,2025-02-09,500,3741.65,Orta,Bağlanıb
+388.T,Tovuz 4,Tovuz,Rayonlar,4,2024,2024-06-05,2025-10-01,484,4664.75,Böyük,Aktiv
+438.T,Tovuz 5,Tovuz,Rayonlar,5,2025,2025-02-10,2025-10-01,234,5551.94,Böyük,Aktiv
+218.T,Tərtər 1,Tərtər,Rayonlar,1,2022,2022-02-06,2023-06-20,500,2285.84,Kiçik,Bağlanıb
+268.T,Tərtər 2,Tərtər,Rayonlar,2,2022,2022-10-14,2024-02-25,500,2640.83,Kiçik,Bağlanıb
+318.T,Tərtər 3,Tərtər,Rayonlar,3,2023,2023-06-21,2024-11-01,500,3113.80,Orta,Bağlanıb
+368.T,Tərtər 4,Tərtər,Rayonlar,4,2024,2024-02-26,2025-08-02,524,4408.34,Orta,Bağlanıb
+418.T,Tərtər 5,Tərtər,Rayonlar,5,2024,2024-11-02,2025-10-01,334,5260.27,Böyük,Aktiv
+223.U,Ucar 1,Ucar,Rayonlar,1,2022,2022-03-03,2023-07-15,500,2272.57,Kiçik,Bağlanıb
+273.U,Ucar 2,Ucar,Rayonlar,2,2022,2022-11-08,2024-03-21,500,2559.91,Kiçik,Bağlanıb
+323.U,Ucar 3,Ucar,Rayonlar,3,2023,2023-07-16,2024-11-26,500,3257.98,Orta,Bağlanıb
+373.U,Ucar 4,Ucar,Rayonlar,4,2024,2024-03-22,2025-08-03,500,4352.45,Orta,Bağlanıb
+423.U,Ucar 5,Ucar,Rayonlar,5,2024,2024-11-27,2025-10-01,309,5349.41,Böyük,Aktiv
+247.X,Xaçmaz 1,Xaçmaz,Rayonlar,1,2022,2022-07-01,2023-11-12,500,2237.74,Kiçik,Bağlanıb
+297.X,Xaçmaz 2,Xaçmaz,Rayonlar,2,2023,2023-03-08,2024-07-19,500,2835.57,Kiçik,Bağlanıb
+347.X,Xaçmaz 3,Xaçmaz,Rayonlar,3,2023,2023-11-13,2025-03-26,500,3703.97,Orta,Bağlanıb
+397.X,Xaçmaz 4,Xaçmaz,Rayonlar,4,2024,2024-07-20,2025-10-01,439,4872.16,Böyük,Aktiv
+447.X,Xaçmaz 5,Xaçmaz,Rayonlar,5,2025,2025-03-27,2025-10-01,189,5363.78,Böyük,Aktiv
+204.Y,Yardımlı 1,Yardımlı,Rayonlar,1,2021,2021-11-28,2022-11-06,344,2910.65,Orta,Bağlanıb
+254.Y,Yardımlı 2,Yardımlı,Rayonlar,2,2022,2022-08-05,2023-12-17,500,2462.91,Kiçik,Bağlanıb
+304.Y,Yardımlı 3,Yardımlı,Rayonlar,3,2023,2023-04-12,2024-08-23,500,3030.43,Orta,Bağlanıb
+354.Y,Yardımlı 4,Yardımlı,Rayonlar,4,2023,2023-12-18,2025-04-30,500,3961.34,Orta,Bağlanıb
+404.Y,Yardımlı 5,Yardımlı,Rayonlar,5,2024,2024-08-24,2025-10-01,404,4784.99,Böyük,Aktiv
+229.Y,Yevlax 1,Yevlax,Rayonlar,1,2022,2022-04-02,2023-08-14,500,2178.04,Kiçik,Bağlanıb
+279.Y,Yevlax 2,Yevlax,Rayonlar,2,2022,2022-12-08,2024-04-20,500,2884.21,Kiçik,Bağlanıb
+329.Y,Yevlax 3,Yevlax,Rayonlar,3,2023,2023-08-15,2024-12-26,500,3366.63,Orta,Bağlanıb
+379.Y,Yevlax 4,Yevlax,Rayonlar,4,2024,2024-04-21,2025-09-02,500,4472.10,Orta,Aktiv
+429.Y,Yevlax 5,Yevlax,Rayonlar,5,2024,2024-12-27,2025-10-01,279,5099.99,Böyük,Aktiv
+248.Z,Zaqatala 1,Zaqatala,Rayonlar,1,2022,2022-07-06,2023-11-17,500,2346.76,Kiçik,Bağlanıb
+298.Z,Zaqatala 2,Zaqatala,Rayonlar,2,2023,2023-03-13,2024-07-24,500,2861.34,Kiçik,Bağlanıb
+348.Z,Zaqatala 3,Zaqatala,Rayonlar,3,2023,2023-11-18,2025-03-31,500,3913.55,Orta,Bağlanıb
+398.Z,Zaqatala 4,Zaqatala,Rayonlar,4,2024,2024-07-25,2025-10-01,434,4759.09,Böyük,Aktiv
+448.Z,Zaqatala 5,Zaqatala,Rayonlar,5,2025,2025-04-01,2025-10-01,184,5213.75,Böyük,Aktiv
+212.İ,İmişli 1,İmişli,Rayonlar,1,2022,2022-01-07,2023-05-21,500,2406.32,Kiçik,Bağlanıb
+262.İ,İmişli 2,İmişli,Rayonlar,2,2022,2022-09-14,2024-01-26,500,2357.50,Kiçik,Bağlanıb
+312.İ,İmişli 3,İmişli,Rayonlar,3,2023,2023-05-22,2024-10-02,500,3012.35,Orta,Bağlanıb
+362.İ,İmişli 4,İmişli,Rayonlar,4,2024,2024-01-27,2025-06-09,500,4313.76,Orta,Bağlanıb
+412.İ,İmişli 5,İmişli,Rayonlar,5,2024,2024-10-03,2025-10-01,364,4964.91,Böyük,Aktiv
+235.İ,İsmayıllı 1,İsmayıllı,Rayonlar,1,2022,2022-05-02,2023-09-13,500,2150.35,Kiçik,Bağlanıb
+285.İ,İsmayıllı 2,İsmayıllı,Rayonlar,2,2023,2023-01-07,2024-05-20,500,2938.86,Orta,Bağlanıb
+335.İ,İsmayıllı 3,İsmayıllı,Rayonlar,3,2023,2023-09-14,2024-12-06,450,3366.11,Orta,Bağlanıb
+385.İ,İsmayıllı 4,İsmayıllı,Rayonlar,4,2024,2024-05-21,2025-10-01,499,4843.77,Böyük,Aktiv
+435.İ,İsmayıllı 5,İsmayıllı,Rayonlar,5,2025,2025-01-26,2025-10-01,249,5322.07,Böyük,Aktiv
+230.Ş,Şamaxı 1,Şamaxı,Rayonlar,1,2022,2022-04-07,2023-08-19,500,2217.23,Kiçik,Bağlanıb
+280.Ş,Şamaxı 2,Şamaxı,Rayonlar,2,2022,2022-12-13,2024-04-25,500,2675.46,Kiçik,Bağlanıb
+330.Ş,Şamaxı 3,Şamaxı,Rayonlar,3,2023,2023-08-20,2024-12-31,500,3565.59,Orta,Bağlanıb
+380.Ş,Şamaxı 4,Şamaxı,Rayonlar,4,2024,2024-04-26,2025-09-07,500,4630.42,Orta,Aktiv
+430.Ş,Şamaxı 5,Şamaxı,Rayonlar,5,2025,2025-01-01,2025-10-01,274,5562.66,Böyük,Aktiv
+214.Ş,Şirvan 1,Şirvan,Rayonlar,1,2022,2022-01-17,2023-05-31,500,2450.30,Kiçik,Bağlanıb
+264.Ş,Şirvan 2,Şirvan,Rayonlar,2,2022,2022-09-24,2024-02-05,500,2538.13,Kiçik,Bağlanıb
+314.Ş,Şirvan 3,Şirvan,Rayonlar,3,2023,2023-06-01,2024-10-12,500,3010.87,Orta,Bağlanıb
+364.Ş,Şirvan 4,Şirvan,Rayonlar,4,2024,2024-02-06,2025-06-19,500,4231.63,Orta,Bağlanıb
+414.Ş,Şirvan 5,Şirvan,Rayonlar,5,2024,2024-10-13,2025-10-01,354,5498.02,Böyük,Aktiv
+243.Ş,Şəki 1,Şəki,Rayonlar,1,2022,2022-06-11,2023-10-23,500,2192.85,Kiçik,Bağlanıb
+293.Ş,Şəki 2,Şəki,Rayonlar,2,2023,2023-02-16,2024-06-29,500,2976.25,Orta,Bağlanıb
+343.Ş,Şəki 3,Şəki,Rayonlar,3,2023,2023-10-24,2025-03-06,500,3773.58,Orta,Bağlanıb
+393.Ş,Şəki 4,Şəki,Rayonlar,4,2024,2024-06-30,2025-10-01,459,4780.32,Böyük,Aktiv
+443.Ş,Şəki 5,Şəki,Rayonlar,5,2025,2025-08-08,2025-10-01,55,6316.62,Böyük,Aktiv
+236.Ş,Şəmkir 1,Şəmkir,Rayonlar,1,2022,2022-05-07,2023-09-18,500,2212.53,Kiçik,Bağlanıb
+286.Ş,Şəmkir 2,Şəmkir,Rayonlar,2,2023,2023-08-08,2023-11-06,91,2590.78,Kiçik,Bağlanıb
+336.Ş,Şəmkir 3,Şəmkir,Rayonlar,3,2023,2023-09-19,2025-01-30,500,3865.14,Orta,Bağlanıb
+386.Ş,Şəmkir 4,Şəmkir,Rayonlar,4,2024,2024-05-26,2025-10-01,494,4594.15,Orta,Aktiv
+436.Ş,Şəmkir 5,Şəmkir,Rayonlar,5,2025,2025-01-31,2025-10-01,244,5506.75,Böyük,Aktiv
